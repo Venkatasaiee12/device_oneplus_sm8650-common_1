@@ -416,9 +416,10 @@ else
     PRODUCT_PACKAGES += op8650OpenDeltaOverlayVanilla
 endif
 
-# OSENSE
+# OPlus dummy services
 PRODUCT_PACKAGES += \
-    vendor.oplus.hardware.osense.client-service
+    vendor.oplus.hardware.osense.client-service \
+    vendor.oplus.hardware.performance-service
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
