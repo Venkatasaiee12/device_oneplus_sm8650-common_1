@@ -32,6 +32,15 @@
       "ResetOnInit": true
     },
     {
+      "Name": "PMQoSCpuDmaLatency",
+      "Path": "/dev/cpu_dma_latency",
+      "Values": [
+        "44",
+        "1000"
+      ],
+      "HoldFd": true
+    },
+    {
       "Name": "CPUBigClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpufreq/policy2/scaling_min_freq",
       "Values": [
@@ -251,6 +260,12 @@
       "Node": "GPUMinFreq",
       "Duration": 100,
       "Value": "422000000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 1000,
+      "Value": "44"
     },
     {
       "PowerHint": "LAUNCH",
