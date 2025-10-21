@@ -1309,7 +1309,6 @@ odm/etc/camera/pfb_bin/snapTex2HWBinary.bin
 odm/etc/camera/pfb_bin/snapYUV420sp2RGBBinary.bin
 odm/etc/camera/pfb_bin/snapseparateYUV2RGBBinary.bin
 odm/etc/camera/qnn_binary_9052758122668408981.bin
-odm/etc/camera/self_ois.ocfg
 odm/etc/camera/selfbokehParam.json
 odm/etc/camera/selfbokehmodel.bin
 odm/etc/camera/singleblur/personseg.bin
