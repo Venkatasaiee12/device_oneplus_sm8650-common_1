@@ -112,6 +112,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i "s/\/my_product/\/product/" "${2}"
             ;;
+        vendor/bin/init.kernel.post_boot-memory.sh)
+            [ "$2" = "" ] && return 0
+            sed -i "s/# echo always/echo always/" "${2}"
+            ;;
         vendor/bin/system_dlkm_modprobe.sh)
             [ "$2" = "" ] && return 0
             sed -i "/zram or zsmalloc/d" "${2}"

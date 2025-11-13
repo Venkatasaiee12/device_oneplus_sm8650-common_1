@@ -173,6 +173,7 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.bluetooth.leaudio_offload.supported=false
 
 # Camera
+ro.camera.disableHeicUltraHDR=true
 ro.camera.enableCamera1MaxZsl=1
 ro.vendor.oplus.camera.frontCamSize=32MP
 ro.vendor.oplus.camera.backCamSize=50MP+48MP+64MP
