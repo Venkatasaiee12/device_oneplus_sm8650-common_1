@@ -74,6 +74,13 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.oplus.sh",
+    src: "init.oplus.sh",
+    device_specific: true,
+}
+
+
+sh_binary {
     name: "init.kernel.post_boot-pineapple.sh",
     src: "init.kernel.post_boot-pineapple.sh",
     vendor: true,
