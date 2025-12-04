@@ -663,6 +663,7 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # WiFi
+FORCE_USE_ANDROIDMK_FOR_WPA_CONF := true
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     android.hardware.wifi.supplicant-V1-ndk.vendor \
