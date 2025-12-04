@@ -82,6 +82,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i "8i\    task_profiles ProcessCapacityHigh MaxPerformance" "${2}"
             ;;
+        odm/etc/init/init.touchDaemon.rc)
+            [ "$2" = "" ] && return 0
+            sed -i "7i\    task_profiles ProcessCapacityHigh MaxPerformance" "${2}"
+            ;;
         odm/etc/permissions/vendor-oplus-hardware-charger.xml)
             [ "$2" = "" ] && return 0
             sed -i "s|/system/system_ext|/system_ext|g" "${2}"
