@@ -2967,8 +2967,6 @@ vendor/lib64/vendor.qti.hardware.alarm-V1-ndk.so
 # Protobuf
 odm/lib64/libprotobuf-cpp-full-3.9.1.so
 odm/lib64/libprotobuf-cpp-lite-3.9.1.so
-vendor/lib64/libprotobuf-cpp-full-21.7.so
-vendor/lib64/libprotobuf-cpp-lite-21.7.so
 
 # QCC
 system_ext/app/QCC/QCC.apk;NODEXPO
