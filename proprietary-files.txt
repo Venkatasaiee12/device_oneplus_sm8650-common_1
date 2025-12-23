@@ -824,13 +824,6 @@ odm/etc/vintf/manifest/manifest_oplus_charger_aidl.xml
 odm/etc/charge.cfg
 odm/lib64/libGaiaClient_vnd.so
 
-# OPLUS Charger firmware
-odm/firmware/fastchg/22877/bms_heating_config.txt
-odm/firmware/fastchg/22877/charging_hyper_mode_config.txt
-odm/firmware/fastchg/22877/charging_thermal_config_default.txt
-odm/firmware/fastchg/charge_time_config.csv
-odm/firmware/fastchg/smart_chg_config_table.txt
-
 # PD
 vendor/bin/pd-mapper
 vendor/lib64/libpdmapper.so
